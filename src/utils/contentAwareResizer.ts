@@ -31,8 +31,8 @@ export type OnIterationArgs = {
 // the lowest energy and thus is a candidate for deletion.
 export const ALPHA_DELETE_THRESHOLD = 244;
 
-export const MAX_WIDTH_LIMIT = 1500;
-export const MAX_HEIGHT_LIMIT = 1500;
+export const MAX_WIDTH_LIMIT = 3000;
+export const MAX_HEIGHT_LIMIT = 3000;
 
 const getPixelDeleteEnergy = (): number => {
   const numColors = 3;
